@@ -1,0 +1,203 @@
+@import "tailwindcss";
+
+@theme {
+  /* Brand & Surface Palette (matched to Stitch reference) */
+  --color-electric-blue: #2F5BFF;
+  --color-electric-blue-tint: #EEF2FF;
+  --color-navy-ink: #0F172A;
+
+  --color-light-primary: #2F5BFF;
+  --color-light-on-primary: #FFFFFF;
+  --color-light-primary-container: #EEF2FF;
+  --color-light-on-primary-container: #002388;
+  --color-light-secondary: #434656;
+  --color-light-on-secondary: #FFFFFF;
+  --color-light-secondary-container: #E8E8E3;
+  --color-light-on-secondary-container: #191B24;
+  --color-light-background: #FAFAF7;
+  --color-light-on-background: #14161D;
+  --color-light-surface: #FAFAF7;
+  --color-light-surface-container-lowest: #FFFFFF;
+  --color-light-surface-container-low: #F4F4EF;
+  --color-light-surface-container: #ECECE6;
+  --color-light-surface-container-high: #E4E4DD;
+  --color-light-on-surface: #14161D;
+  --color-light-on-surface-variant: #525563;
+  --color-light-outline: #737685;
+  --color-light-outline-variant: #DFDFD7;
+  --color-light-inverse-surface: #0F172A;
+  --color-light-inverse-on-surface: #F8FAFC;
+
+  /* Typography */
+  --font-display: "Plus Jakarta Sans", sans-serif;
+  --font-headline: "Plus Jakarta Sans", sans-serif;
+  --font-title: "Instrument Sans", sans-serif;
+  --font-body: "Instrument Sans", sans-serif;
+  --font-label: "Instrument Sans", sans-serif;
+  --font-mono: "Spline Sans Mono", monospace;
+
+  /* Type Scale */
+  --text-display-lg: 4rem;
+  --text-display-lg--line-height: 4.375rem;
+  --text-display-lg--letter-spacing: -1.5px;
+  --text-display-lg--font-weight: 800;
+
+  --text-display-lg-mobile: 2rem;
+  --text-display-lg-mobile--line-height: 2.375rem;
+  --text-display-lg-mobile--letter-spacing: -0.75px;
+  --text-display-lg-mobile--font-weight: 800;
+
+  --text-headline-lg: 2.5rem;
+  --text-headline-lg--line-height: 2.875rem;
+  --text-headline-lg--letter-spacing: -0.8px;
+  --text-headline-lg--font-weight: 700;
+
+  --text-headline-lg-mobile: 1.75rem;
+  --text-headline-lg-mobile--line-height: 2.125rem;
+  --text-headline-lg-mobile--letter-spacing: -0.5px;
+  --text-headline-lg-mobile--font-weight: 700;
+
+  --text-headline-md: 1.5rem;
+  --text-headline-md--line-height: 1.875rem;
+  --text-headline-md--letter-spacing: -0.3px;
+  --text-headline-md--font-weight: 700;
+
+  --text-title-lg: 1.25rem;
+  --text-title-lg--line-height: 1.625rem;
+  --text-title-lg--letter-spacing: -0.2px;
+  --text-title-lg--font-weight: 700;
+
+  --text-title-md: 1rem;
+  --text-title-md--line-height: 1.375rem;
+  --text-title-md--letter-spacing: -0.1px;
+  --text-title-md--font-weight: 600;
+
+  --text-body-lg: 1.125rem;
+  --text-body-lg--line-height: 1.75rem;
+  --text-body-lg--letter-spacing: 0px;
+  --text-body-lg--font-weight: 400;
+
+  --text-body-md: 0.9375rem;
+  --text-body-md--line-height: 1.5rem;
+  --text-body-md--letter-spacing: 0px;
+  --text-body-md--font-weight: 400;
+
+  --text-label-lg: 0.9375rem;
+  --text-label-lg--line-height: 1.25rem;
+  --text-label-lg--letter-spacing: 0px;
+  --text-label-lg--font-weight: 600;
+
+  --text-label-md: 0.8125rem;
+  --text-label-md--line-height: 1.125rem;
+  --text-label-md--letter-spacing: 0.1px;
+  --text-label-md--font-weight: 600;
+
+  --text-label-sm: 0.75rem;
+  --text-label-sm--line-height: 1rem;
+  --text-label-sm--letter-spacing: 0.4px;
+  --text-label-sm--font-weight: 500;
+
+  /* Border Radius */
+  --radius-sm: 6px;
+  --radius-DEFAULT: 10px;
+  --radius-md: 14px;
+  --radius-lg: 18px;
+  --radius-xl: 24px;
+}
+
+/* Card shadow matching Stitch reference */
+.portfolio-card-shadow {
+  box-shadow: 0 10px 30px -12px rgba(15, 23, 42, 0.07);
+}
+
+.portfolio-card-shadow:hover {
+  box-shadow: 0 20px 40px -15px rgba(47, 91, 255, 0.14);
+}
+
+/* Animated underline on navigation links */
+.nav-link-underline {
+  position: relative;
+}
+
+.nav-link-underline::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: -4px;
+  height: 2px;
+  border-radius: 9999px;
+  background-color: #2F5BFF;
+  transform: scaleX(0);
+  transform-origin: left center;
+  transition: transform 220ms cubic-bezier(0.2, 0, 0, 1);
+}
+
+.nav-link-underline:hover::after,
+.nav-link-underline:focus-visible::after,
+.nav-link-underline[data-active="true"]::after {
+  transform: scaleX(1);
+}
+
+/* Ambient floating blue shapes */
+@keyframes blob-drift-a {
+  0%, 100% {
+    transform: translate3d(0, 0, 0) scale(1);
+  }
+  50% {
+    transform: translate3d(28px, -22px, 0) scale(1.06);
+  }
+}
+
+@keyframes blob-drift-b {
+  0%, 100% {
+    transform: translate3d(0, 0, 0) scale(1);
+  }
+  50% {
+    transform: translate3d(-24px, 26px, 0) scale(0.95);
+  }
+}
+
+.animate-blob-a {
+  animation: blob-drift-a 16s ease-in-out infinite;
+}
+
+.animate-blob-b {
+  animation: blob-drift-b 20s ease-in-out infinite;
+}
+
+/* Tap ripple effect */
+@keyframes tap-ripple-expand {
+  0% {
+    transform: translate(-50%, -50%) scale(0);
+    opacity: 0.35;
+  }
+  100% {
+    transform: translate(-50%, -50%) scale(2.8);
+    opacity: 0;
+  }
+}
+
+.tap-ripple {
+  position: absolute;
+  border-radius: 9999px;
+  pointer-events: none;
+  animation: tap-ripple-expand 520ms cubic-bezier(0.16, 1, 0.3, 1) forwards;
+}
+
+/* Respect reduced motion across all CSS transitions and keyframes */
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+
+  .animate-blob-a,
+  .animate-blob-b,
+  .tap-ripple {
+    animation: none !important;
+  }
+
+  .nav-link-underline::after {
+    transition: none !important;
+  }
+}

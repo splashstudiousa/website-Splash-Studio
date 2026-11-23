@@ -1,0 +1,850 @@
+<!DOCTYPE html><html lang="en" class="scroll-smooth"><head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Muzammil — Founder of Splash Studio</title>
+  <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+  <script id="tailwind-config">/** @type {import('tailwindcss').Config} */
+globalThis.tailwind = globalThis.tailwind || {};
+globalThis.tailwind.config = {
+  darkMode: 'class',
+  theme: {
+    extend: {
+      colors: {
+        'electric-blue': '#2F5BFF',
+        'electric-blue-tint': '#EEF2FF',
+        'navy-ink': '#0F172A',
+        'light-primary': '#2F5BFF',
+        'light-on-primary': '#FFFFFF',
+        'light-primary-container': '#EEF2FF',
+        'light-on-primary-container': '#002388',
+        'light-secondary': '#434656',
+        'light-on-secondary': '#FFFFFF',
+        'light-secondary-container': '#E8E8E3',
+        'light-on-secondary-container': '#191B24',
+        'light-background': '#FAFAF7',
+        'light-on-background': '#14161D',
+        'light-surface': '#FAFAF7',
+        'light-surface-container-lowest': '#FFFFFF',
+        'light-surface-container-low': '#F4F4EF',
+        'light-surface-container': '#ECECE6',
+        'light-surface-container-high': '#E4E4DD',
+        'light-on-surface': '#14161D',
+        'light-on-surface-variant': '#525563',
+        'light-outline': '#737685',
+        'light-outline-variant': '#DFDFD7',
+        'light-inverse-surface': '#0F172A',
+        'light-inverse-on-surface': '#F8FAFC',
+        'light-error': '#BA1A1A',
+        'light-on-error': '#FFFFFF',
+        'dark-primary': '#94A6FF',
+        'dark-on-primary': '#001356',
+        'dark-primary-container': '#2F5BFF',
+        'dark-on-primary-container': '#FFFFFF',
+        'dark-secondary': '#C4C5D9',
+        'dark-on-secondary': '#191B24',
+        'dark-secondary-container': '#2E303A',
+        'dark-on-secondary-container': '#E2E1EF',
+        'dark-background': '#0F172A',
+        'dark-on-background': '#F8FAFC',
+        'dark-surface': '#0F172A',
+        'dark-surface-container-lowest': '#090E1A',
+        'dark-surface-container-low': '#162038',
+        'dark-surface-container': '#1E293B',
+        'dark-surface-container-high': '#293548',
+        'dark-on-surface': '#F8FAFC',
+        'dark-on-surface-variant': '#CBD5E1',
+        'dark-outline': '#94A3B8',
+        'dark-outline-variant': '#334155',
+        'dark-inverse-surface': '#FAFAF7',
+        'dark-inverse-on-surface': '#14161D',
+        'dark-error': '#FFB4AB',
+        'dark-on-error': '#690005',
+      },
+      borderRadius: {
+        'sm': '6px',
+        'DEFAULT': '10px',
+        'md': '14px',
+        'lg': '18px',
+        'xl': '24px',
+        'full': '9999px',
+      },
+      spacing: {
+        'gutter-xs': '4px',
+        'gutter-sm': '8px',
+        'gutter-md': '16px',
+        'gutter-lg': '24px',
+        'gutter-xl': '32px',
+        'section': '64px',
+        'page-margin': '24px',
+      },
+      fontFamily: {
+        'display': ['"Plus Jakarta Sans"', 'sans-serif'],
+        'headline': ['"Plus Jakarta Sans"', 'sans-serif'],
+        'title': ['"Instrument Sans"', 'sans-serif'],
+        'body': ['"Instrument Sans"', 'sans-serif'],
+        'label': ['"Instrument Sans"', 'sans-serif'],
+      },
+      fontSize: {
+        'display-lg': ['64px', { lineHeight: '70px', letterSpacing: '-1.5px', fontWeight: '800' }],
+        'display-lg-mobile': ['32px', { lineHeight: '38px', letterSpacing: '-0.75px', fontWeight: '800' }],
+        'headline-lg': ['40px', { lineHeight: '46px', letterSpacing: '-0.8px', fontWeight: '700' }],
+        'headline-lg-mobile': ['28px', { lineHeight: '34px', letterSpacing: '-0.5px', fontWeight: '700' }],
+        'headline-md': ['24px', { lineHeight: '30px', letterSpacing: '-0.3px', fontWeight: '700' }],
+        'title-lg': ['20px', { lineHeight: '26px', letterSpacing: '-0.2px', fontWeight: '700' }],
+        'title-md': ['16px', { lineHeight: '22px', letterSpacing: '-0.1px', fontWeight: '600' }],
+        'body-lg': ['18px', { lineHeight: '28px', letterSpacing: '0px', fontWeight: '400' }],
+        'body-md': ['15px', { lineHeight: '24px', letterSpacing: '0px', fontWeight: '400' }],
+        'label-lg': ['15px', { lineHeight: '20px', letterSpacing: '0px', fontWeight: '600' }],
+        'label-md': ['13px', { lineHeight: '18px', letterSpacing: '0.1px', fontWeight: '600' }],
+        'label-sm': ['12px', { lineHeight: '16px', letterSpacing: '0.4px', fontWeight: '500' }],
+      },
+      transitionDuration: {
+        'state-change': '150ms',
+        'card-lift': '250ms',
+        'filter-reveal': '220ms',
+      },
+      transitionDelay: {
+        'state-change': '0ms',
+        'card-lift': '0ms',
+        'filter-reveal': '0ms',
+      },
+      transitionTimingFunction: {
+        'state-change': 'ease-out',
+        'card-lift': 'cubic-bezier(0.2, 0, 0, 1)',
+        'filter-reveal': 'cubic-bezier(0.2, 0, 0, 1)',
+      },
+    },
+  },
+};
+if (typeof module !== 'undefined') module.exports = globalThis.tailwind.config;
+</script>
+  <link href="https://fonts.googleapis.com/css2?family=Instrument+Sans:wght@400;500;600;700&amp;family=Plus+Jakarta+Sans:wght@600;700;800&amp;family=Spline+Sans+Mono:wght@500&amp;display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=block" rel="stylesheet">
+  <style>
+    .material-symbols-outlined, .material-symbols-rounded, .material-symbols-sharp, .material-icons {
+      display: inline-block; width: 1em; height: 1em; line-height: 1 !important;
+      box-sizing: content-box; overflow: hidden; white-space: nowrap; direction: ltr; vertical-align: middle;
+    }
+    .portfolio-card-shadow {
+      box-shadow: 0 10px 30px -12px rgba(15, 23, 42, 0.07);
+    }
+    .portfolio-card-shadow:hover {
+      box-shadow: 0 20px 40px -15px rgba(47, 91, 255, 0.14);
+    }
+  </style>
+</head>
+<body class="bg-light-surface text-light-on-surface font-body antialiased selection:bg-light-primary-container selection:text-light-on-primary-container">
+
+  <div class="min-h-[1024px] flex flex-col" data-stitch-vh="min-h-[1024px]===min-h-screen">
+    <!-- Top Navigation -->
+    <header class="sticky top-0 z-40 bg-light-surface/95 border-b border-light-outline-variant">
+      <div class="max-w-[1200px] mx-auto px-6 md:px-8 h-20 flex items-center justify-between gap-6">
+        <a href="#top" class="inline-flex items-center shrink-0 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-light-primary rounded-sm">
+          <img src="https://lh3.googleusercontent.com/aida/ALJJyrAyQHmDEqq-CDTMNrh1UZHBTeeMYOH-783E-9mqvjid8NZByALjoAIFWEnxoDeTuCWLBrlv4ybDdrRTufb4HOtoyLCzKig_q0EZ_rZfBE3COJUaAIirbVSQRMvEiek59BYkASS5wRvPtbqMZAnJbTydJwpwbuX5d_1NCiBP-54hP7-l2jX2aX5_jb2kbe-320Fnsj9mR33RLDiKD4Pczc0pM8NpC2ihrYjyF00e0JcdmO5rHc7-vPpvCv4" alt="Splash Studio" class="h-12 w-auto object-contain">
+        </a>
+
+        <nav aria-label="Primary navigation" class="hidden md:flex items-center gap-8">
+          <a href="#services" class="font-body text-label-lg text-light-on-surface-variant hover:text-light-primary transition-colors duration-state-change" data-design-text-token="label-lg">Services</a>
+          <a href="#portfolio" class="font-body text-label-lg text-light-on-surface-variant hover:text-light-primary transition-colors duration-state-change" data-design-text-token="label-lg">Work</a>
+          <a href="#process" class="font-body text-label-lg text-light-on-surface-variant hover:text-light-primary transition-colors duration-state-change" data-design-text-token="label-lg">Process</a>
+          <a href="#testimonials" class="font-body text-label-lg text-light-on-surface-variant hover:text-light-primary transition-colors duration-state-change" data-design-text-token="label-lg">Reviews</a>
+          <a href="#contact" class="font-body text-label-lg text-light-on-surface-variant hover:text-light-primary transition-colors duration-state-change" data-design-text-token="label-lg">Contact</a>
+        </nav>
+
+        <a href="#contact" data-component-id="button-primary-compact" data-component-type="button" data-component-variant="primary" class="inline-flex items-center justify-center gap-2 rounded-full bg-light-primary text-light-on-primary px-5 py-2.5 font-body text-label-md shrink-0 whitespace-nowrap transition-transform duration-state-change ease-state-change hover:-translate-y-0.5 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-light-primary">
+          <span data-design-text-token="label-md">Hire me</span>
+        </a>
+      </div>
+    </header>
+
+    <main id="top" class="flex-1">
+      <!-- 1. Hero Section -->
+      <section class="max-w-[1200px] mx-auto px-6 md:px-8 pt-16 md:pt-24 pb-16 md:pb-20">
+        <div class="max-w-3xl flex flex-col items-start gap-7">
+          <div class="inline-flex items-center gap-3 rounded-full bg-light-surface-container-lowest border border-light-outline-variant pl-2 pr-4 py-1.5 shadow-sm">
+            <img src="https://lh3.googleusercontent.com/aida/ALJJyrAtdyskTx1_rgG9h1zhDaaMD42UiaUiAKmaMA0HpMWCsLNrjtIzUlFTUAG58c6Ugy3n6Ijq31n-ezIgXtpMV5e7UqBJrwbPlIWmGE2P2d6pQp50S_miJccGYSqa5mV4D4ubY6PgKtdO2NLs_hOBB8jGf7_Z2JqLxpVldKC_q9nJbySEEj7f7_ovdFv0nLaCwqg1cE4-7N-KvzQ3Gg4HtC6RzR7TjQf8aI3MF9qx_tOtuudo-sAA_tGqzBCV" alt="Muzammil, founder of Splash Studio" class="w-8 h-8 rounded-full object-cover">
+            <span class="font-body text-label-md text-light-on-surface" data-design-text-token="label-md">Muzammil · Founder of Splash Studio</span>
+          </div>
+
+          <h1 data-component-id="typography-display" data-component-type="typography" data-component-variant="display" data-design-text-token="display-lg" class="font-display text-display-lg-mobile md:text-display-lg text-light-on-surface text-balance min-w-0">
+            Hi, I&#39;m Muzammil
+          </h1>
+
+          <p data-component-id="typography-body" data-component-type="typography" data-component-variant="body" data-design-text-token="body-lg" class="font-body text-body-lg text-light-on-surface-variant max-w-prose text-pretty">
+            I lead Splash Studio, a digital agency helping founders and product teams ship high-converting UI/UX design, analytics dashboards, AI automations, custom web apps, and launch videos.
+          </p>
+
+          <div class="flex flex-wrap items-center gap-4 pt-2">
+            <!-- COMPONENT: button-primary -->
+            <a href="#portfolio" data-component-id="button-primary" data-component-type="button" data-component-variant="primary" class="inline-flex items-center justify-center gap-2 rounded-full bg-light-primary text-light-on-primary px-7 py-3.5 font-body text-label-lg transition-transform duration-state-change ease-state-change hover:-translate-y-0.5 active:translate-y-0 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-light-primary">
+              <span data-design-text-token="label-lg">View my work</span>
+              <span class="material-symbols-outlined text-[18px]" aria-hidden="true">arrow_downward</span>
+            </a>
+
+            <!-- COMPONENT: button-secondary -->
+            <a href="#contact" data-component-id="button-secondary" data-component-type="button" data-component-variant="secondary" class="inline-flex items-center justify-center gap-2 rounded-full bg-light-surface-container-lowest text-light-on-surface border border-light-outline-variant px-7 py-3.5 font-body text-label-lg transition-colors duration-state-change ease-state-change hover:border-light-primary hover:text-light-primary focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-light-primary">
+              <span data-design-text-token="label-lg">Hire me</span>
+            </a>
+          </div>
+
+          <!-- Above-the-fold Proof Strip -->
+          <div class="w-full pt-8 mt-2 border-t border-light-outline-variant grid grid-cols-3 gap-6 max-w-xl">
+            <div class="flex flex-col gap-1">
+              <span class="font-headline text-headline-md text-light-on-surface tabular-nums" data-design-text-token="headline-md">45+</span>
+              <span class="font-body text-label-md text-light-on-surface-variant" data-design-text-token="label-md">Products shipped</span>
+            </div>
+            <div class="flex flex-col gap-1">
+              <span class="font-headline text-headline-md text-light-on-surface tabular-nums" data-design-text-token="headline-md">5.0</span>
+              <span class="font-body text-label-md text-light-on-surface-variant" data-design-text-token="label-md">Client rating</span>
+            </div>
+            <div class="flex flex-col gap-1">
+              <span class="font-headline text-headline-md text-light-on-surface tabular-nums" data-design-text-token="headline-md">2–4 wks</span>
+              <span class="font-body text-label-md text-light-on-surface-variant" data-design-text-token="label-md">Typical sprint</span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- 2. Services Section -->
+      <section id="services" class="max-w-[1200px] mx-auto px-6 md:px-8 py-16 md:py-20 border-t border-light-outline-variant">
+        <div class="flex flex-col md:flex-row md:items-end justify-between gap-6 mb-12">
+          <div class="flex flex-col gap-3 max-w-xl">
+            <span class="font-body text-label-md text-light-primary" data-design-text-token="label-md">Services</span>
+            <h2 class="font-headline text-headline-lg-mobile md:text-headline-lg text-light-on-surface text-balance" data-design-text-token="headline-lg">
+              What Splash Studio builds
+            </h2>
+          </div>
+          <p class="font-body text-body-md text-light-on-surface-variant max-w-sm text-pretty" data-design-text-token="body-md">
+            End-to-end execution across product design, engineering, automation, and motion.
+          </p>
+        </div>
+
+        <div class="grid grid-cols-1 md:grid-cols-6 gap-6 items-stretch">
+          <!-- Service 1: UI/UX Design -->
+          <article data-component-id="card-elevated-wide" data-component-type="card" data-component-variant="elevated" class="md:col-span-3 h-full flex flex-col justify-between gap-6 rounded-xl bg-light-surface-container-lowest border border-light-outline-variant p-8 portfolio-card-shadow transition-transform duration-card-lift ease-card-lift hover:-translate-y-1">
+            <div class="flex items-center justify-between gap-4">
+              <div class="w-12 h-12 rounded-lg bg-light-primary-container text-light-primary flex items-center justify-center">
+                <span class="material-symbols-outlined text-[24px]" aria-hidden="true">design_services</span>
+              </div>
+              <span class="font-body text-label-sm text-light-primary bg-light-primary-container px-3 py-1 rounded-full" data-design-text-token="label-sm">2–3 wk sprint</span>
+            </div>
+            <div class="flex flex-col gap-2">
+              <h3 class="font-headline text-headline-md text-light-on-surface" data-design-text-token="headline-md">UI/UX Design</h3>
+              <p class="font-body text-body-md text-light-on-surface-variant text-pretty" data-design-text-token="body-md">
+                Web and mobile product interfaces, scalable design systems, and interactive prototypes built for clarity and conversion.
+              </p>
+            </div>
+          </article>
+
+          <!-- Service 2: Dashboards -->
+          <article data-component-id="card-elevated-wide" data-component-type="card" data-component-variant="elevated" class="md:col-span-3 h-full flex flex-col justify-between gap-6 rounded-xl bg-light-surface-container-lowest border border-light-outline-variant p-8 portfolio-card-shadow transition-transform duration-card-lift ease-card-lift hover:-translate-y-1">
+            <div class="flex items-center justify-between gap-4">
+              <div class="w-12 h-12 rounded-lg bg-light-primary-container text-light-primary flex items-center justify-center">
+                <span class="material-symbols-outlined text-[24px]" aria-hidden="true">analytics</span>
+              </div>
+              <span class="font-body text-label-sm text-light-primary bg-light-primary-container px-3 py-1 rounded-full" data-design-text-token="label-sm">2–4 wk sprint</span>
+            </div>
+            <div class="flex flex-col gap-2">
+              <h3 class="font-headline text-headline-md text-light-on-surface" data-design-text-token="headline-md">Dashboards</h3>
+              <p class="font-body text-body-md text-light-on-surface-variant text-pretty" data-design-text-token="body-md">
+                Data-dense SaaS control centers, executive KPI views, and real-time operational workspaces that stay effortless to scan.
+              </p>
+            </div>
+          </article>
+
+          <!-- Service 3: AI Automation -->
+          <article data-component-id="card-elevated" data-component-type="card" data-component-variant="elevated" class="md:col-span-2 h-full flex flex-col justify-between gap-6 rounded-xl bg-light-surface-container-lowest border border-light-outline-variant p-7 portfolio-card-shadow transition-transform duration-card-lift ease-card-lift hover:-translate-y-1">
+            <div class="flex items-center justify-between gap-3">
+              <div class="w-11 h-11 rounded-lg bg-light-primary-container text-light-primary flex items-center justify-center">
+                <span class="material-symbols-outlined text-[22px]" aria-hidden="true">smart_toy</span>
+              </div>
+              <span class="font-body text-label-sm text-light-primary bg-light-primary-container px-2.5 py-1 rounded-full" data-design-text-token="label-sm">1–2 wks</span>
+            </div>
+            <div class="flex flex-col gap-2">
+              <h3 class="font-headline text-title-lg text-light-on-surface" data-design-text-token="title-lg">AI Automation</h3>
+              <p class="font-body text-body-md text-light-on-surface-variant text-pretty" data-design-text-token="body-md">
+                Custom LLM agents, CRM pipelines, and workflow automations that eliminate manual bottlenecks.
+              </p>
+            </div>
+          </article>
+
+          <!-- Service 4: Web Development -->
+          <article data-component-id="card-elevated" data-component-type="card" data-component-variant="elevated" class="md:col-span-2 h-full flex flex-col justify-between gap-6 rounded-xl bg-light-surface-container-lowest border border-light-outline-variant p-7 portfolio-card-shadow transition-transform duration-card-lift ease-card-lift hover:-translate-y-1">
+            <div class="flex items-center justify-between gap-3">
+              <div class="w-11 h-11 rounded-lg bg-light-primary-container text-light-primary flex items-center justify-center">
+                <span class="material-symbols-outlined text-[22px]" aria-hidden="true">code</span>
+              </div>
+              <span class="font-body text-label-sm text-light-primary bg-light-primary-container px-2.5 py-1 rounded-full" data-design-text-token="label-sm">2–4 wks</span>
+            </div>
+            <div class="flex flex-col gap-2">
+              <h3 class="font-headline text-title-lg text-light-on-surface" data-design-text-token="title-lg">Web Development</h3>
+              <p class="font-body text-body-md text-light-on-surface-variant text-pretty" data-design-text-token="body-md">
+                Fast, responsive marketing sites and production web apps engineered with modern frameworks.
+              </p>
+            </div>
+          </article>
+
+          <!-- Service 5: Video Production -->
+          <article data-component-id="card-elevated" data-component-type="card" data-component-variant="elevated" class="md:col-span-2 h-full flex flex-col justify-between gap-6 rounded-xl bg-light-surface-container-lowest border border-light-outline-variant p-7 portfolio-card-shadow transition-transform duration-card-lift ease-card-lift hover:-translate-y-1">
+            <div class="flex items-center justify-between gap-3">
+              <div class="w-11 h-11 rounded-lg bg-light-primary-container text-light-primary flex items-center justify-center">
+                <span class="material-symbols-outlined text-[22px]" aria-hidden="true">videocam</span>
+              </div>
+              <span class="font-body text-label-sm text-light-primary bg-light-primary-container px-2.5 py-1 rounded-full" data-design-text-token="label-sm">1–2 wks</span>
+            </div>
+            <div class="flex flex-col gap-2">
+              <h3 class="font-headline text-title-lg text-light-on-surface" data-design-text-token="title-lg">Video Production</h3>
+              <p class="font-body text-body-md text-light-on-surface-variant text-pretty" data-design-text-token="body-md">
+                Product launch films, UI motion explainers, and crisp commercial edits tailored for growth.
+              </p>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <!-- 3. Portfolio Section -->
+      <section id="portfolio" class="max-w-[1200px] mx-auto px-6 md:px-8 py-16 md:py-20 border-t border-light-outline-variant">
+        <div class="flex flex-col lg:flex-row lg:items-end justify-between gap-8 mb-12">
+          <div class="flex flex-col gap-3">
+            <span class="font-body text-label-md text-light-primary" data-design-text-token="label-md">Selected Work</span>
+            <h2 class="font-headline text-headline-lg-mobile md:text-headline-lg text-light-on-surface text-balance" data-design-text-token="headline-lg">
+              Recent projects
+            </h2>
+          </div>
+
+          <!-- Filter Pills -->
+          <div role="group" aria-label="Filter projects by category" class="flex flex-wrap items-center gap-2.5">
+            <button type="button" data-filter="all" data-component-id="chip-filter-active" data-component-type="chip" data-component-variant="filter" aria-pressed="true" class="filter-btn inline-flex items-center justify-center rounded-full bg-light-primary text-light-on-primary px-4 py-2 font-body text-label-md transition-colors duration-state-change ease-state-change focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-light-primary">
+              <span data-design-text-token="label-md">All</span>
+            </button>
+            <button type="button" data-filter="mobile" data-component-id="chip-filter" data-component-type="chip" data-component-variant="filter" aria-pressed="false" class="filter-btn inline-flex items-center justify-center rounded-full bg-light-surface-container-lowest text-light-on-surface-variant border border-light-outline-variant px-4 py-2 font-body text-label-md transition-colors duration-state-change ease-state-change hover:border-light-primary hover:text-light-primary focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-light-primary">
+              <span data-design-text-token="label-md">Mobile Apps</span>
+            </button>
+            <button type="button" data-filter="dashboards" data-component-id="chip-filter" data-component-type="chip" data-component-variant="filter" aria-pressed="false" class="filter-btn inline-flex items-center justify-center rounded-full bg-light-surface-container-lowest text-light-on-surface-variant border border-light-outline-variant px-4 py-2 font-body text-label-md transition-colors duration-state-change ease-state-change hover:border-light-primary hover:text-light-primary focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-light-primary">
+              <span data-design-text-token="label-md">Dashboards</span>
+            </button>
+            <button type="button" data-filter="websites" data-component-id="chip-filter" data-component-type="chip" data-component-variant="filter" aria-pressed="false" class="filter-btn inline-flex items-center justify-center rounded-full bg-light-surface-container-lowest text-light-on-surface-variant border border-light-outline-variant px-4 py-2 font-body text-label-md transition-colors duration-state-change ease-state-change hover:border-light-primary hover:text-light-primary focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-light-primary">
+              <span data-design-text-token="label-md">Websites</span>
+            </button>
+            <button type="button" data-filter="video" data-component-id="chip-filter" data-component-type="chip" data-component-variant="filter" aria-pressed="false" class="filter-btn inline-flex items-center justify-center rounded-full bg-light-surface-container-lowest text-light-on-surface-variant border border-light-outline-variant px-4 py-2 font-body text-label-md transition-colors duration-state-change ease-state-change hover:border-light-primary hover:text-light-primary focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-light-primary">
+              <span data-design-text-token="label-md">Video</span>
+            </button>
+          </div>
+        </div>
+
+        <!-- Portfolio Grid -->
+        <div id="portfolio-grid" class="grid grid-cols-1 md:grid-cols-2 gap-8 items-stretch">
+          <!-- Card 1: Mobile App -->
+          <article data-category="mobile" data-project="pulsepay" data-component-id="card-action" data-component-type="card" data-component-variant="action" class="portfolio-item cursor-pointer group flex flex-col overflow-hidden rounded-xl bg-light-surface-container-lowest border border-light-outline-variant portfolio-card-shadow transition-transform duration-card-lift ease-card-lift hover:-translate-y-1">
+            <div class="aspect-[4/3] w-full overflow-hidden bg-light-surface-container-low">
+              <img src="https://lh3.googleusercontent.com/aida/ALJJyrA00bXRortZkYBTtelGZHAWGaL8nRpvxvb2GVS-NNxQy4gxI8nYmZyHmu_kuzxtI2MiIJMXl7qDdQ-W3bmwFwMz_pIl4RJzIlNUnwQ1WhopXhzwv4yGT1C0qqNJvOiB7lOOSNUhNBO8R-qGJ1OtwI8QpS4LuTZHkhvr10UdiKSgnl-H9522cyTtVaIbc1p4Z4P2WSzbze-KB6O3wS-jZPiC8uRxE3pQYKDaH-yQomiib-ASFI4v_M35yuqIvOLCZjb_SQ" alt="PulsePay Mobile Banking App mockup" class="w-full h-full object-cover transition-transform duration-card-lift ease-card-lift group-hover:scale-[1.02]">
+            </div>
+            <div class="flex items-center justify-between gap-4 p-7">
+              <div class="flex flex-col gap-1 min-w-0">
+                <span class="font-body text-label-md text-light-primary" data-design-text-token="label-md">Mobile Apps · +38% onboarding</span>
+                <h3 class="font-headline text-title-lg text-light-on-surface" data-design-text-token="title-lg">PulsePay Banking</h3>
+                <p class="font-body text-body-md text-light-on-surface-variant text-pretty" data-design-text-token="body-md">iOS &amp; Android fintech experience with instant transfers.</p>
+              </div>
+              <span class="w-10 h-10 shrink-0 rounded-full border border-light-outline-variant flex items-center justify-center text-light-on-surface group-hover:border-light-primary group-hover:text-light-primary transition-colors duration-state-change">
+                <span class="material-symbols-outlined text-[18px]" aria-hidden="true">arrow_outward</span>
+              </span>
+            </div>
+          </article>
+
+          <!-- Card 2: Dashboard -->
+          <article data-category="dashboards" data-project="metricflow" data-component-id="card-action" data-component-type="card" data-component-variant="action" class="portfolio-item cursor-pointer group flex flex-col overflow-hidden rounded-xl bg-light-surface-container-lowest border border-light-outline-variant portfolio-card-shadow transition-transform duration-card-lift ease-card-lift hover:-translate-y-1">
+            <div class="aspect-[4/3] w-full overflow-hidden bg-light-surface-container-low">
+              <img src="https://lh3.googleusercontent.com/aida/ALJJyrAj1FHr_uqO_Wd10ETjYWoz8RPZfadDJchxo_ERrzSujE7g-scackb1dD5E9ipnHFFONr_pOrV7kOcpJp-6W80oGsuXFYSIRVAJIxTsbuTgMeBiTku-Btli0WNEEZb5S5JDkxHqwkOqsGN4MTZRp0bPAKPHI8yfDkc_NPAfDudxnsMF0heaZNwZXrtz_w8kp7kTRKWPxUlP30JQ_uoJEzWcJgNPqOWd-gWPy5vPPtFAWxm-q1ZgRYY1XuoECBForCQdkg" alt="MetricFlow SaaS Analytics Dashboard mockup" class="w-full h-full object-cover transition-transform duration-card-lift ease-card-lift group-hover:scale-[1.02]">
+            </div>
+            <div class="flex items-center justify-between gap-4 p-7">
+              <div class="flex flex-col gap-1 min-w-0">
+                <span class="font-body text-label-md text-light-primary" data-design-text-token="label-md">Dashboards · 2.1x faster triage</span>
+                <h3 class="font-headline text-title-lg text-light-on-surface" data-design-text-token="title-lg">MetricFlow Analytics</h3>
+                <p class="font-body text-body-md text-light-on-surface-variant text-pretty" data-design-text-token="body-md">Real-time revenue, cohort, and retention command center.</p>
+              </div>
+              <span class="w-10 h-10 shrink-0 rounded-full border border-light-outline-variant flex items-center justify-center text-light-on-surface group-hover:border-light-primary group-hover:text-light-primary transition-colors duration-state-change">
+                <span class="material-symbols-outlined text-[18px]" aria-hidden="true">arrow_outward</span>
+              </span>
+            </div>
+          </article>
+
+          <!-- Card 3: Website -->
+          <article data-category="websites" data-project="novaai" data-component-id="card-action" data-component-type="card" data-component-variant="action" class="portfolio-item cursor-pointer group flex flex-col overflow-hidden rounded-xl bg-light-surface-container-lowest border border-light-outline-variant portfolio-card-shadow transition-transform duration-card-lift ease-card-lift hover:-translate-y-1">
+            <div class="aspect-[4/3] w-full overflow-hidden bg-light-surface-container-low">
+              <img src="https://lh3.googleusercontent.com/aida/ALJJyrCJKfdV1RA2x2SvuFnJv_ZvY5kabfLjUkFKIm1MUxAxEuwDzpF2teHM1r9z7-zftcDbd7A0qAPbNRYmq3Eq0Of4Ikm1ZARbdkAE41Hwd35P6mtr8EYg-7dWxI4tiznhSKp63EzWNeRkLWg__BSyFbx_yt2IWMarYxAmzNY42VDDGWivN6OkGt694paaCQG4raEqSmdkvEPFhfRrnlokyVzG7Ahdy7jhNTrWpzsWjBtUZp7KXmz1TXzVA2FyUST_" alt="NovaAI Automation Platform Website mockup" class="w-full h-full object-cover transition-transform duration-card-lift ease-card-lift group-hover:scale-[1.02]">
+            </div>
+            <div class="flex items-center justify-between gap-4 p-7">
+              <div class="flex flex-col gap-1 min-w-0">
+                <span class="font-body text-label-md text-light-primary" data-design-text-token="label-md">Websites · 4.8% demo CVR</span>
+                <h3 class="font-headline text-title-lg text-light-on-surface" data-design-text-token="title-lg">NovaAI Platform</h3>
+                <p class="font-body text-body-md text-light-on-surface-variant text-pretty" data-design-text-token="body-md">High-speed marketing site and interactive demo flow.</p>
+              </div>
+              <span class="w-10 h-10 shrink-0 rounded-full border border-light-outline-variant flex items-center justify-center text-light-on-surface group-hover:border-light-primary group-hover:text-light-primary transition-colors duration-state-change">
+                <span class="material-symbols-outlined text-[18px]" aria-hidden="true">arrow_outward</span>
+              </span>
+            </div>
+          </article>
+
+          <!-- Card 4: Video -->
+          <article data-category="video" data-project="kinetix" data-component-id="card-action" data-component-type="card" data-component-variant="action" class="portfolio-item cursor-pointer group flex flex-col overflow-hidden rounded-xl bg-light-surface-container-lowest border border-light-outline-variant portfolio-card-shadow transition-transform duration-card-lift ease-card-lift hover:-translate-y-1">
+            <div class="aspect-[4/3] w-full overflow-hidden bg-light-surface-container-low relative">
+              <img src="https://lh3.googleusercontent.com/aida/ALJJyrADjp3E6wnubnRLTMEbb4i_JsJQrHdTJCDxl6b-coFSLfhs-1BpjJ_SKlB56udaBI2xrstyJU4jmQDeUCKlwDihtRlUsOfZWrw6xM_k1Q0Q8QPg3WGRdX-35xfBTkqlW4yo5aTOXT3cc4SoOf-hvySZ9aepVrUd1DBHT9XgqYoGwb1d8yfe2lgfRTBVjhVVPF-joVpLXq0IMzNtlLdBhQtAw8TTKr6e3DONr6Cnwn5IgYHGmDP0CoQ-m2S2X-9WDA" alt="Kinetix Product Launch Film thumbnail" class="w-full h-full object-cover transition-transform duration-card-lift ease-card-lift group-hover:scale-[1.02]">
+              <div class="absolute inset-0 flex items-center justify-center pointer-events-none">
+                <span class="w-14 h-14 rounded-full bg-light-surface-container-lowest/95 text-light-primary flex items-center justify-center shadow-md">
+                  <span class="material-symbols-outlined text-[28px]" style="font-variation-settings: &#39;FILL&#39; 1;" aria-hidden="true">play_arrow</span>
+                </span>
+              </div>
+            </div>
+            <div class="flex items-center justify-between gap-4 p-7">
+              <div class="flex flex-col gap-1 min-w-0">
+                <span class="font-body text-label-md text-light-primary" data-design-text-token="label-md">Video · 180K launch views</span>
+                <h3 class="font-headline text-title-lg text-light-on-surface" data-design-text-token="title-lg">Kinetix Launch Film</h3>
+                <p class="font-body text-body-md text-light-on-surface-variant text-pretty" data-design-text-token="body-md">90-second 3D and UI motion launch reel for Series A.</p>
+              </div>
+              <span class="w-10 h-10 shrink-0 rounded-full border border-light-outline-variant flex items-center justify-center text-light-on-surface group-hover:border-light-primary group-hover:text-light-primary transition-colors duration-state-change">
+                <span class="material-symbols-outlined text-[18px]" aria-hidden="true">arrow_outward</span>
+              </span>
+            </div>
+          </article>
+
+          <!-- Card 5: Mobile App -->
+          <article data-category="mobile" data-project="veloce" data-component-id="card-action" data-component-type="card" data-component-variant="action" class="portfolio-item cursor-pointer group flex flex-col overflow-hidden rounded-xl bg-light-surface-container-lowest border border-light-outline-variant portfolio-card-shadow transition-transform duration-card-lift ease-card-lift hover:-translate-y-1">
+            <div class="aspect-[4/3] w-full overflow-hidden bg-light-surface-container-low">
+              <img src="https://lh3.googleusercontent.com/aida/ALJJyrAWZPYLsqDRHc87zwuYLTuMRCPEGZsqDrouqeueFZvppWq8NP_sNoQVS95YT2cYaQcqb8FrN0p78Wh3PvfqW7yowTQzc2-0vbjdR1kvXGFvO0hms5HtvZqndHD-xrFXUHZlgI7-jmvy9MaPokBZM0BT22wJURRedbFHngcAs1WXpgn_SMYzJ4ehVD4ZRS4YFTW7ims14CpKFj-A53at_V9aMIEkR24Z_679f4Sq4mxsQ4xzXlPdPaMHmdD6QUegxHE" alt="Veloce Fitness and Habit Tracker Mobile App mockup" class="w-full h-full object-cover transition-transform duration-card-lift ease-card-lift group-hover:scale-[1.02]">
+            </div>
+            <div class="flex items-center justify-between gap-4 p-7">
+              <div class="flex flex-col gap-1 min-w-0">
+                <span class="font-body text-label-md text-light-primary" data-design-text-token="label-md">Mobile Apps · 4.9 App Store</span>
+                <h3 class="font-headline text-title-lg text-light-on-surface" data-design-text-token="title-lg">Veloce Habit App</h3>
+                <p class="font-body text-body-md text-light-on-surface-variant text-pretty" data-design-text-token="body-md">Daily routine coaching with adaptive streak tracking.</p>
+              </div>
+              <span class="w-10 h-10 shrink-0 rounded-full border border-light-outline-variant flex items-center justify-center text-light-on-surface group-hover:border-light-primary group-hover:text-light-primary transition-colors duration-state-change">
+                <span class="material-symbols-outlined text-[18px]" aria-hidden="true">arrow_outward</span>
+              </span>
+            </div>
+          </article>
+
+          <!-- Card 6: Dashboard -->
+          <article data-category="dashboards" data-project="dispatchos" data-component-id="card-action" data-component-type="card" data-component-variant="action" class="portfolio-item cursor-pointer group flex flex-col overflow-hidden rounded-xl bg-light-surface-container-lowest border border-light-outline-variant portfolio-card-shadow transition-transform duration-card-lift ease-card-lift hover:-translate-y-1">
+            <div class="aspect-[4/3] w-full overflow-hidden bg-light-surface-container-low">
+              <img src="https://lh3.googleusercontent.com/aida/ALJJyrBSI9xS5pmSCFN4Uo49RuodN3X6mOzYjA7V-jA7y95lbTnbyzlMZiU1w8M7TbfG0yI9trBU7BzuWeeEOCdoZuIZQMfidwDOrzLNZk1m8fEkMW3aGUO9pBabzns_MEhQ_PK3KV_6j-QDEu8muJ8YXqIS2NNcZqD9rBGmihLBY6mSCjCehe-LVLsajYffFZm3t5oe31RVhuGo8SSYrq8aNmbbQl2SOHbaO3yHCt4-ZnPdnlzCAP2uV4H1lkKQYCQxfdU" alt="DispatchOS AI Ops Command Center mockup" class="w-full h-full object-cover transition-transform duration-card-lift ease-card-lift group-hover:scale-[1.02]">
+            </div>
+            <div class="flex items-center justify-between gap-4 p-7">
+              <div class="flex flex-col gap-1 min-w-0">
+                <span class="font-body text-label-md text-light-primary" data-design-text-token="label-md">Dashboards · 14 hrs/wk saved</span>
+                <h3 class="font-headline text-title-lg text-light-on-surface" data-design-text-token="title-lg">DispatchOS Center</h3>
+                <p class="font-body text-body-md text-light-on-surface-variant text-pretty" data-design-text-token="body-md">Automated agent monitoring and workflow orchestration UI.</p>
+              </div>
+              <span class="w-10 h-10 shrink-0 rounded-full border border-light-outline-variant flex items-center justify-center text-light-on-surface group-hover:border-light-primary group-hover:text-light-primary transition-colors duration-state-change">
+                <span class="material-symbols-outlined text-[18px]" aria-hidden="true">arrow_outward</span>
+              </span>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <!-- 4. Process Section -->
+      <section id="process" class="max-w-[1200px] mx-auto px-6 md:px-8 py-16 md:py-20 border-t border-light-outline-variant">
+        <div class="flex flex-col gap-3 max-w-xl mb-12">
+          <span class="font-body text-label-md text-light-primary" data-design-text-token="label-md">Process</span>
+          <h2 class="font-headline text-headline-lg-mobile md:text-headline-lg text-light-on-surface text-balance" data-design-text-token="headline-lg">
+            How we ship together
+          </h2>
+        </div>
+
+        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 items-stretch">
+          <article class="h-full flex flex-col gap-4 rounded-xl bg-light-surface-container-lowest border border-light-outline-variant p-7 portfolio-card-shadow">
+            <div class="w-10 h-10 rounded-lg bg-light-primary-container text-light-primary flex items-center justify-center">
+              <span class="material-symbols-outlined text-[20px]" aria-hidden="true">search</span>
+            </div>
+            <h3 class="font-headline text-title-lg text-light-on-surface" data-design-text-token="title-lg">Discover</h3>
+            <p class="font-body text-body-md text-light-on-surface-variant text-pretty" data-design-text-token="body-md">
+              Align on business goals, user bottlenecks, and technical scope before a single pixel is drawn.
+            </p>
+          </article>
+
+          <article class="h-full flex flex-col gap-4 rounded-xl bg-light-surface-container-lowest border border-light-outline-variant p-7 portfolio-card-shadow">
+            <div class="w-10 h-10 rounded-lg bg-light-primary-container text-light-primary flex items-center justify-center">
+              <span class="material-symbols-outlined text-[20px]" aria-hidden="true">draw</span>
+            </div>
+            <h3 class="font-headline text-title-lg text-light-on-surface" data-design-text-token="title-lg">Design</h3>
+            <p class="font-body text-body-md text-light-on-surface-variant text-pretty" data-design-text-token="body-md">
+              Craft wireframes, interactive prototypes, and a cohesive visual system you can test early.
+            </p>
+          </article>
+
+          <article class="h-full flex flex-col gap-4 rounded-xl bg-light-surface-container-lowest border border-light-outline-variant p-7 portfolio-card-shadow">
+            <div class="w-10 h-10 rounded-lg bg-light-primary-container text-light-primary flex items-center justify-center">
+              <span class="material-symbols-outlined text-[20px]" aria-hidden="true">terminal</span>
+            </div>
+            <h3 class="font-headline text-title-lg text-light-on-surface" data-design-text-token="title-lg">Build</h3>
+            <p class="font-body text-body-md text-light-on-surface-variant text-pretty" data-design-text-token="body-md">
+              Develop responsive web apps, AI workflows, and motion assets with production-grade polish.
+            </p>
+          </article>
+
+          <article class="h-full flex flex-col gap-4 rounded-xl bg-light-surface-container-lowest border border-light-outline-variant p-7 portfolio-card-shadow">
+            <div class="w-10 h-10 rounded-lg bg-light-primary-container text-light-primary flex items-center justify-center">
+              <span class="material-symbols-outlined text-[20px]" aria-hidden="true">rocket_launch</span>
+            </div>
+            <h3 class="font-headline text-title-lg text-light-on-surface" data-design-text-token="title-lg">Launch</h3>
+            <p class="font-body text-body-md text-light-on-surface-variant text-pretty" data-design-text-token="body-md">
+              Ship cleanly, monitor real usage, and iterate rapidly with post-launch support.
+            </p>
+          </article>
+        </div>
+      </section>
+
+      <!-- 4b. Client Reviews Section -->
+      <section id="testimonials" class="max-w-[1200px] mx-auto px-6 md:px-8 py-16 md:py-20 border-t border-light-outline-variant">
+        <div class="flex flex-col gap-3 max-w-xl mb-12">
+          <span class="font-body text-label-md text-light-primary" data-design-text-token="label-md">Client Feedback</span>
+          <h2 class="font-headline text-headline-lg-mobile md:text-headline-lg text-light-on-surface text-balance" data-design-text-token="headline-lg">
+            Trusted by founders &amp; teams
+          </h2>
+        </div>
+
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-6 items-stretch">
+          <article class="h-full flex flex-col justify-between gap-6 rounded-xl bg-light-surface-container-lowest border border-light-outline-variant p-7 portfolio-card-shadow">
+            <p class="font-body text-body-md text-light-on-surface text-pretty" data-design-text-token="body-md">
+              &#34;Muzammil redesigned our entire SaaS analytics dashboard in two weeks. Our enterprise trial-to-paid conversion jumped immediately.&#34;
+            </p>
+            <div class="flex flex-col gap-0.5 pt-4 border-t border-light-outline-variant">
+              <span class="font-headline text-title-md text-light-on-surface" data-design-text-token="title-md">Daniela Ortiz</span>
+              <span class="font-body text-label-md text-light-on-surface-variant" data-design-text-token="label-md">VP Product, MetricFlow</span>
+            </div>
+          </article>
+
+          <article class="h-full flex flex-col justify-between gap-6 rounded-xl bg-light-surface-container-lowest border border-light-outline-variant p-7 portfolio-card-shadow">
+            <p class="font-body text-body-md text-light-on-surface text-pretty" data-design-text-token="body-md">
+              &#34;Splash Studio automated our lead qualification with a custom AI agent and rebuilt our landing page. It paid for itself in the first month.&#34;
+            </p>
+            <div class="flex flex-col gap-0.5 pt-4 border-t border-light-outline-variant">
+              <span class="font-headline text-title-md text-light-on-surface" data-design-text-token="title-md">Tariq Al-Mansoor</span>
+              <span class="font-body text-label-md text-light-on-surface-variant" data-design-text-token="label-md">Founder, DispatchOS</span>
+            </div>
+          </article>
+
+          <article class="h-full flex flex-col justify-between gap-6 rounded-xl bg-light-surface-container-lowest border border-light-outline-variant p-7 portfolio-card-shadow">
+            <p class="font-body text-body-md text-light-on-surface text-pretty" data-design-text-token="body-md">
+              &#34;Our launch film looked like a $30k studio production. Clear communication, fast iterations, and zero hand-holding needed.&#34;
+            </p>
+            <div class="flex flex-col gap-0.5 pt-4 border-t border-light-outline-variant">
+              <span class="font-headline text-title-md text-light-on-surface" data-design-text-token="title-md">Hannah Lindqvist</span>
+              <span class="font-body text-label-md text-light-on-surface-variant" data-design-text-token="label-md">Co-founder, Kinetix</span>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <!-- 5. Contact & AI Project Scoper Section -->
+      <section id="contact" class="max-w-[1200px] mx-auto px-6 md:px-8 pt-10 pb-24">
+        <div class="rounded-xl bg-light-surface-container-lowest border border-light-outline-variant p-8 md:p-12 portfolio-card-shadow flex flex-col gap-10">
+          <div class="flex flex-col lg:flex-row lg:items-end justify-between gap-6">
+            <div class="flex flex-col gap-3 max-w-lg">
+              <span class="font-body text-label-md text-light-primary" data-design-text-token="label-md">30-Second Project Scoper</span>
+              <h2 class="font-headline text-headline-lg-mobile md:text-headline-lg text-light-on-surface text-balance" data-design-text-token="headline-lg">
+                Ready to build with Splash Studio?
+              </h2>
+              <p class="font-body text-body-md text-light-on-surface-variant text-pretty" data-design-text-token="body-md">
+                Pick what you need below to pre-fill a brief, or message me directly. I reply within a few hours.
+              </p>
+            </div>
+          </div>
+
+          <!-- Interactive Scoper Controls -->
+          <div class="grid grid-cols-1 lg:grid-cols-12 gap-8 p-6 rounded-lg bg-light-surface-container-low border border-light-outline-variant">
+            <div class="lg:col-span-7 flex flex-col gap-5">
+              <div class="flex flex-col gap-2.5">
+                <span class="font-body text-label-md text-light-on-surface" data-design-text-token="label-md">1. Select service focus</span>
+                <div class="flex flex-wrap gap-2">
+                  <button type="button" data-scope-service="UI/UX Design" aria-pressed="true" class="scope-service-btn rounded-full bg-light-primary text-light-on-primary px-4 py-2 font-body text-label-md transition-colors duration-state-change">UI/UX Design</button>
+                  <button type="button" data-scope-service="Dashboards" aria-pressed="false" class="scope-service-btn rounded-full bg-light-surface-container-lowest text-light-on-surface-variant border border-light-outline-variant px-4 py-2 font-body text-label-md transition-colors duration-state-change hover:border-light-primary">Dashboards</button>
+                  <button type="button" data-scope-service="AI Automation" aria-pressed="false" class="scope-service-btn rounded-full bg-light-surface-container-lowest text-light-on-surface-variant border border-light-outline-variant px-4 py-2 font-body text-label-md transition-colors duration-state-change hover:border-light-primary">AI Automation</button>
+                  <button type="button" data-scope-service="Web Development" aria-pressed="false" class="scope-service-btn rounded-full bg-light-surface-container-lowest text-light-on-surface-variant border border-light-outline-variant px-4 py-2 font-body text-label-md transition-colors duration-state-change hover:border-light-primary">Web Development</button>
+                  <button type="button" data-scope-service="Video Production" aria-pressed="false" class="scope-service-btn rounded-full bg-light-surface-container-lowest text-light-on-surface-variant border border-light-outline-variant px-4 py-2 font-body text-label-md transition-colors duration-state-change hover:border-light-primary">Video Production</button>
+                </div>
+              </div>
+
+              <div class="flex flex-col gap-2.5">
+                <span class="font-body text-label-md text-light-on-surface" data-design-text-token="label-md">2. Target timeline</span>
+                <div class="flex flex-wrap gap-2">
+                  <button type="button" data-scope-timeline="ASAP (2 weeks)" aria-pressed="true" class="scope-timeline-btn rounded-full bg-light-primary text-light-on-primary px-4 py-2 font-body text-label-md transition-colors duration-state-change">ASAP (2 weeks)</button>
+                  <button type="button" data-scope-timeline="1–2 months" aria-pressed="false" class="scope-timeline-btn rounded-full bg-light-surface-container-lowest text-light-on-surface-variant border border-light-outline-variant px-4 py-2 font-body text-label-md transition-colors duration-state-change hover:border-light-primary">1–2 months</button>
+                  <button type="button" data-scope-timeline="Ongoing retainer" aria-pressed="false" class="scope-timeline-btn rounded-full bg-light-surface-container-lowest text-light-on-surface-variant border border-light-outline-variant px-4 py-2 font-body text-label-md transition-colors duration-state-change hover:border-light-primary">Ongoing retainer</button>
+                </div>
+              </div>
+            </div>
+
+            <div class="lg:col-span-5 flex flex-col justify-between gap-4 rounded-lg bg-light-surface-container-lowest border border-light-outline-variant p-5">
+              <div class="flex flex-col gap-1.5">
+                <span class="font-body text-label-sm text-light-primary" data-design-text-token="label-sm">RECOMMENDED BRIEF</span>
+                <p id="scope-summary" class="font-body text-body-md text-light-on-surface text-pretty" data-design-text-token="body-md">
+                  &#34;Hi Muzammil, I&#39;d like to scope a UI/UX Design sprint on an ASAP (2 weeks) timeline with Splash Studio.&#34;
+                </p>
+              </div>
+              <span class="font-body text-label-sm text-light-on-surface-variant" data-design-text-token="label-sm">Pre-filled automatically when you click WhatsApp or Email below</span>
+            </div>
+          </div>
+
+          <div class="flex flex-wrap items-center gap-3.5">
+            <!-- WhatsApp -->
+            <a id="contact-whatsapp" href="https://wa.me/0000000000?text=Hi%20Muzammil%2C%20I%27d%20like%20to%20scope%20a%20UI%2FUX%20Design%20sprint%20on%20an%20ASAP%20(2%20weeks)%20timeline%20with%20Splash%20Studio." target="_blank" rel="noopener noreferrer" data-component-id="button-with-icon-primary" data-component-type="button" data-component-variant="with-icon" class="inline-flex items-center justify-center gap-2.5 rounded-full bg-light-primary text-light-on-primary px-6 py-3.5 font-body text-label-lg transition-transform duration-state-change ease-state-change hover:-translate-y-0.5 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-light-primary">
+              <span class="material-symbols-outlined text-[18px]" aria-hidden="true">chat</span>
+              <span data-design-text-token="label-lg">WhatsApp</span>
+            </a>
+
+            <!-- Email -->
+            <a id="contact-email" href="mailto:muzammil@splashstudio.co?subject=Splash%20Studio%20Project%20Inquiry&amp;body=Hi%20Muzammil%2C%20I%27d%20like%20to%20scope%20a%20UI%2FUX%20Design%20sprint%20on%20an%20ASAP%20(2%20weeks)%20timeline%20with%20Splash%20Studio." data-component-id="button-with-icon" data-component-type="button" data-component-variant="with-icon" class="inline-flex items-center justify-center gap-2.5 rounded-full bg-light-surface-container-lowest text-light-on-surface border border-light-outline-variant px-6 py-3.5 font-body text-label-lg transition-all duration-state-change ease-state-change hover:border-light-primary hover:text-light-primary hover:-translate-y-0.5 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-light-primary">
+              <span class="material-symbols-outlined text-[18px] text-light-primary" aria-hidden="true">mail</span>
+              <span data-design-text-token="label-lg">Email</span>
+            </a>
+
+            <!-- LinkedIn -->
+            <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" data-component-id="button-with-icon" data-component-type="button" data-component-variant="with-icon" class="inline-flex items-center justify-center gap-2.5 rounded-full bg-light-surface-container-lowest text-light-on-surface border border-light-outline-variant px-6 py-3.5 font-body text-label-lg transition-all duration-state-change ease-state-change hover:border-light-primary hover:text-light-primary hover:-translate-y-0.5 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-light-primary">
+              <span class="material-symbols-outlined text-[18px] text-light-primary" aria-hidden="true">work</span>
+              <span data-design-text-token="label-lg">LinkedIn</span>
+            </a>
+
+            <!-- Fiverr -->
+            <a href="https://fiverr.com" target="_blank" rel="noopener noreferrer" data-component-id="button-with-icon" data-component-type="button" data-component-variant="with-icon" class="inline-flex items-center justify-center gap-2.5 rounded-full bg-light-surface-container-lowest text-light-on-surface border border-light-outline-variant px-6 py-3.5 font-body text-label-lg transition-all duration-state-change ease-state-change hover:border-light-primary hover:text-light-primary hover:-translate-y-0.5 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-light-primary">
+              <span class="material-symbols-outlined text-[18px] text-light-primary" aria-hidden="true">storefront</span>
+              <span data-design-text-token="label-lg">Fiverr</span>
+            </a>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- Footer (Dark Navy Anchor with Light Logo) -->
+    <footer class="bg-light-inverse-surface text-light-inverse-on-surface">
+      <div class="max-w-[1200px] mx-auto px-6 md:px-8 py-12 flex flex-col md:flex-row items-center justify-between gap-6">
+        <div class="flex items-center gap-4">
+          <img src="https://lh3.googleusercontent.com/aida/ALJJyrB5JOQV8CgSvfnmoN6ghQZhl-jMGEZQj4JC5t1YgjVzP1zkMjLdbdSUXqOlKv4Ya66SMSRBlKbBPvCwes4QEUcG_1rez55b0uDxPVk2FIe0_bggD_2eJAQRBXGjyM2AQeonZpM-MZkEdjGHCpfnDVdoJGYOeeZzsV56pISArrN-gz3pf6GGqrT-Rlk7eUkKF7jbHq5DaOoxr7Jch14axNp6k5ZhF2vI5bb2f3lrQIT-vU2ZtEE08fxNJLk" alt="Splash Studio" class="h-10 w-auto object-contain">
+        </div>
+
+        <nav aria-label="Footer navigation" class="flex flex-wrap items-center gap-6">
+          <a href="#services" class="font-body text-label-md text-light-inverse-on-surface/80 hover:text-light-inverse-on-surface transition-colors" data-design-text-token="label-md">Services</a>
+          <a href="#portfolio" class="font-body text-label-md text-light-inverse-on-surface/80 hover:text-light-inverse-on-surface transition-colors" data-design-text-token="label-md">Work</a>
+          <a href="#process" class="font-body text-label-md text-light-inverse-on-surface/80 hover:text-light-inverse-on-surface transition-colors" data-design-text-token="label-md">Process</a>
+          <a href="#testimonials" class="font-body text-label-md text-light-inverse-on-surface/80 hover:text-light-inverse-on-surface transition-colors" data-design-text-token="label-md">Reviews</a>
+          <a href="#contact" class="font-body text-label-md text-light-inverse-on-surface/80 hover:text-light-inverse-on-surface transition-colors" data-design-text-token="label-md">Contact</a>
+        </nav>
+
+        <p class="font-body text-label-sm text-light-inverse-on-surface/70" data-design-text-token="label-sm">
+          © 2026 Splash Studio · Muzammil
+        </p>
+      </div>
+    </footer>
+  </div>
+
+  <!-- Case Study Detail Modal -->
+  <div id="case-study-modal" role="dialog" aria-modal="true" aria-labelledby="modal-title" class="hidden fixed inset-0 z-50 bg-navy-ink/50 items-center justify-center p-6">
+    <div class="w-full max-w-2xl rounded-xl bg-light-surface-container-lowest border border-light-outline-variant shadow-2xl overflow-hidden">
+      <div class="flex items-center justify-between gap-4 px-7 py-5 border-b border-light-outline-variant">
+        <span id="modal-category" class="font-body text-label-md text-light-primary" data-design-text-token="label-md">Category</span>
+        <button id="modal-close" type="button" aria-label="Close case study" class="w-9 h-9 rounded-full border border-light-outline-variant flex items-center justify-center text-light-on-surface hover:border-light-primary hover:text-light-primary">
+          <span class="material-symbols-outlined text-[18px]" aria-hidden="true">close</span>
+        </button>
+      </div>
+      <div class="p-7 flex flex-col gap-5">
+        <h3 id="modal-title" class="font-headline text-headline-md text-light-on-surface" data-design-text-token="headline-md">Project Title</h3>
+        <div class="aspect-[16/9] w-full rounded-lg overflow-hidden bg-light-surface-container-low">
+          <img id="modal-img" src alt class="w-full h-full object-cover">
+        </div>
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
+          <div class="p-4 rounded-lg bg-light-surface-container-low">
+            <span class="font-body text-label-sm text-light-primary block mb-1">CHALLENGE</span>
+            <p id="modal-challenge" class="font-body text-body-md text-light-on-surface-variant"></p>
+          </div>
+          <div class="p-4 rounded-lg bg-light-surface-container-low">
+            <span class="font-body text-label-sm text-light-primary block mb-1">SOLUTION</span>
+            <p id="modal-solution" class="font-body text-body-md text-light-on-surface-variant"></p>
+          </div>
+          <div class="p-4 rounded-lg bg-light-primary-container">
+            <span class="font-body text-label-sm text-light-on-primary-container block mb-1">OUTCOME</span>
+            <p id="modal-outcome" class="font-headline text-title-md text-light-on-primary-container"></p>
+          </div>
+        </div>
+        <div class="flex justify-end pt-2">
+          <a id="modal-cta" href="#contact" class="inline-flex items-center justify-center gap-2 rounded-full bg-light-primary text-light-on-primary px-6 py-3 font-body text-label-lg">
+            <span>Request a similar project</span>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script data-stitch-original-script="7b98a2caa40a7c3d===../../images/portfolio_mobile_fintech.jpg|||f34919dded1b27dc===../../images/portfolio_dashboard_saas.jpg|||990e68d00d68443f===../../images/portfolio_website_ai.jpg|||973dd1302a9f9a52===../../images/portfolio_video_launch.jpg|||182f26e92645d0cd===../../images/portfolio_mobile_health.jpg|||2e5cf65eb7a55906===../../images/portfolio_dashboard_ops.jpg">
+    (function () {
+      // Portfolio filter
+      var buttons = document.querySelectorAll('.filter-btn');
+      var cards = document.querySelectorAll('.portfolio-item');
+
+      buttons.forEach(function (btn) {
+        btn.addEventListener('click', function () {
+          var filter = btn.getAttribute('data-filter');
+
+          buttons.forEach(function (b) {
+            var isActive = b === btn;
+            b.setAttribute('aria-pressed', isActive ? 'true' : 'false');
+            if (isActive) {
+              b.classList.remove('bg-light-surface-container-lowest', 'text-light-on-surface-variant', 'border', 'border-light-outline-variant');
+              b.classList.add('bg-light-primary', 'text-light-on-primary');
+            } else {
+              b.classList.remove('bg-light-primary', 'text-light-on-primary');
+              b.classList.add('bg-light-surface-container-lowest', 'text-light-on-surface-variant', 'border', 'border-light-outline-variant');
+            }
+          });
+
+          cards.forEach(function (card) {
+            var category = card.getAttribute('data-category');
+            if (filter === 'all' || category === filter) {
+              card.classList.remove('hidden');
+            } else {
+              card.classList.add('hidden');
+            }
+          });
+        });
+      });
+
+      // Case Study Modal
+      var projects = {
+        pulsepay: {
+          category: 'Mobile Apps',
+          title: 'PulsePay Banking',
+          img: 'https://lh3.googleusercontent.com/aida/ALJJyrA00bXRortZkYBTtelGZHAWGaL8nRpvxvb2GVS-NNxQy4gxI8nYmZyHmu_kuzxtI2MiIJMXl7qDdQ-W3bmwFwMz_pIl4RJzIlNUnwQ1WhopXhzwv4yGT1C0qqNJvOiB7lOOSNUhNBO8R-qGJ1OtwI8QpS4LuTZHkhvr10UdiKSgnl-H9522cyTtVaIbc1p4Z4P2WSzbze-KB6O3wS-jZPiC8uRxE3pQYKDaH-yQomiib-ASFI4v_M35yuqIvOLCZjb_SQ',
+          challenge: 'High drop-off during KYC verification and transfer setup.',
+          solution: 'Streamlined 3-step onboarding with biometric quick-send cards.',
+          outcome: '+38% completed signups in 30 days'
+        },
+        metricflow: {
+          category: 'Dashboards',
+          title: 'MetricFlow Analytics',
+          img: 'https://lh3.googleusercontent.com/aida/ALJJyrAj1FHr_uqO_Wd10ETjYWoz8RPZfadDJchxo_ERrzSujE7g-scackb1dD5E9ipnHFFONr_pOrV7kOcpJp-6W80oGsuXFYSIRVAJIxTsbuTgMeBiTku-Btli0WNEEZb5S5JDkxHqwkOqsGN4MTZRp0bPAKPHI8yfDkc_NPAfDudxnsMF0heaZNwZXrtz_w8kp7kTRKWPxUlP30JQ_uoJEzWcJgNPqOWd-gWPy5vPPtFAWxm-q1ZgRYY1XuoECBForCQdkg',
+          challenge: 'Founders struggled to spot churn signals across 12 tables.',
+          solution: 'Unified executive KPI hierarchy with cohort drill-down.',
+          outcome: '2.1x faster daily metric triage'
+        },
+        novaai: {
+          category: 'Websites',
+          title: 'NovaAI Platform',
+          img: 'https://lh3.googleusercontent.com/aida/ALJJyrCJKfdV1RA2x2SvuFnJv_ZvY5kabfLjUkFKIm1MUxAxEuwDzpF2teHM1r9z7-zftcDbd7A0qAPbNRYmq3Eq0Of4Ikm1ZARbdkAE41Hwd35P6mtr8EYg-7dWxI4tiznhSKp63EzWNeRkLWg__BSyFbx_yt2IWMarYxAmzNY42VDDGWivN6OkGt694paaCQG4raEqSmdkvEPFhfRrnlokyVzG7Ahdy7jhNTrWpzsWjBtUZp7KXmz1TXzVA2FyUST_',
+          challenge: 'Technical product story felt abstract to non-technical buyers.',
+          solution: 'Built interactive workflow previews and clear ROI framing.',
+          outcome: '4.8% visitor-to-demo conversion'
+        },
+        kinetix: {
+          category: 'Video Production',
+          title: 'Kinetix Launch Film',
+          img: 'https://lh3.googleusercontent.com/aida/ALJJyrADjp3E6wnubnRLTMEbb4i_JsJQrHdTJCDxl6b-coFSLfhs-1BpjJ_SKlB56udaBI2xrstyJU4jmQDeUCKlwDihtRlUsOfZWrw6xM_k1Q0Q8QPg3WGRdX-35xfBTkqlW4yo5aTOXT3cc4SoOf-hvySZ9aepVrUd1DBHT9XgqYoGwb1d8yfe2lgfRTBVjhVVPF-joVpLXq0IMzNtlLdBhQtAw8TTKr6e3DONr6Cnwn5IgYHGmDP0CoQ-m2S2X-9WDA',
+          challenge: 'Needed flagship launch film for Series A announcement.',
+          solution: 'Directed 90s 3D hardware + UI motion reel with sound design.',
+          outcome: '180K organic views in launch week'
+        },
+        veloce: {
+          category: 'Mobile Apps',
+          title: 'Veloce Habit App',
+          img: 'https://lh3.googleusercontent.com/aida/ALJJyrAWZPYLsqDRHc87zwuYLTuMRCPEGZsqDrouqeueFZvppWq8NP_sNoQVS95YT2cYaQcqb8FrN0p78Wh3PvfqW7yowTQzc2-0vbjdR1kvXGFvO0hms5HtvZqndHD-xrFXUHZlgI7-jmvy9MaPokBZM0BT22wJURRedbFHngcAs1WXpgn_SMYzJ4ehVD4ZRS4YFTW7ims14CpKFj-A53at_V9aMIEkR24Z_679f4Sq4mxsQ4xzXlPdPaMHmdD6QUegxHE',
+          challenge: 'Users abandoned rigid daily checklists after week one.',
+          solution: 'Designed adaptive streak rings and 1-tap check-in widgets.',
+          outcome: '4.9 App Store rating across 2K+ reviews'
+        },
+        dispatchos: {
+          category: 'Dashboards',
+          title: 'DispatchOS Center',
+          img: 'https://lh3.googleusercontent.com/aida/ALJJyrBSI9xS5pmSCFN4Uo49RuodN3X6mOzYjA7V-jA7y95lbTnbyzlMZiU1w8M7TbfG0yI9trBU7BzuWeeEOCdoZuIZQMfidwDOrzLNZk1m8fEkMW3aGUO9pBabzns_MEhQ_PK3KV_6j-QDEu8muJ8YXqIS2NNcZqD9rBGmihLBY6mSCjCehe-LVLsajYffFZm3t5oe31RVhuGo8SSYrq8aNmbbQl2SOHbaO3yHCt4-ZnPdnlzCAP2uV4H1lkKQYCQxfdU',
+          challenge: 'Manual ticket routing slowed down operations teams.',
+          solution: 'Built live AI agent monitor with exception-only alerts.',
+          outcome: '14 hours/week saved per ops manager'
+        }
+      };
+
+      var modal = document.getElementById('case-study-modal');
+      var modalClose = document.getElementById('modal-close');
+      var modalCta = document.getElementById('modal-cta');
+
+      cards.forEach(function (card) {
+        card.addEventListener('click', function () {
+          var key = card.getAttribute('data-project');
+          var data = projects[key];
+          if (!data || !modal) return;
+          document.getElementById('modal-category').textContent = data.category;
+          document.getElementById('modal-title').textContent = data.title;
+          document.getElementById('modal-img').src = data.img;
+          document.getElementById('modal-img').alt = data.title;
+          document.getElementById('modal-challenge').textContent = data.challenge;
+          document.getElementById('modal-solution').textContent = data.solution;
+          document.getElementById('modal-outcome').textContent = data.outcome;
+          modal.classList.remove('hidden');
+          modal.classList.add('flex');
+        });
+      });
+
+      function closeModal() {
+        if (!modal) return;
+        modal.classList.add('hidden');
+        modal.classList.remove('flex');
+      }
+
+      if (modalClose) modalClose.addEventListener('click', closeModal);
+      if (modalCta) modalCta.addEventListener('click', closeModal);
+      if (modal) {
+        modal.addEventListener('click', function (e) {
+          if (e.target === modal) closeModal();
+        });
+      }
+
+      // AI Project Scoper
+      var selectedService = 'UI/UX Design';
+      var selectedTimeline = 'ASAP (2 weeks)';
+      var summaryEl = document.getElementById('scope-summary');
+      var waEl = document.getElementById('contact-whatsapp');
+      var mailEl = document.getElementById('contact-email');
+
+      function updateScope() {
+        var msg = "Hi Muzammil, I'd like to scope a " + selectedService + " sprint on an " + selectedTimeline + " timeline with Splash Studio.";
+        if (summaryEl) summaryEl.textContent = '"' + msg + '"';
+        var encoded = encodeURIComponent(msg);
+        if (waEl) waEl.href = 'https://wa.me/0000000000?text=' + encoded;
+        if (mailEl) mailEl.href = 'mailto:muzammil@splashstudio.co?subject=' + encodeURIComponent('Splash Studio — ' + selectedService) + '&body=' + encoded;
+      }
+
+      document.querySelectorAll('.scope-service-btn').forEach(function (btn) {
+        btn.addEventListener('click', function () {
+          selectedService = btn.getAttribute('data-scope-service');
+          document.querySelectorAll('.scope-service-btn').forEach(function (b) {
+            var active = b === btn;
+            b.setAttribute('aria-pressed', active ? 'true' : 'false');
+            b.classList.toggle('bg-light-primary', active);
+            b.classList.toggle('text-light-on-primary', active);
+            b.classList.toggle('bg-light-surface-container-lowest', !active);
+            b.classList.toggle('text-light-on-surface-variant', !active);
+            b.classList.toggle('border', !active);
+            b.classList.toggle('border-light-outline-variant', !active);
+          });
+          updateScope();
+        });
+      });
+
+      document.querySelectorAll('.scope-timeline-btn').forEach(function (btn) {
+        btn.addEventListener('click', function () {
+          selectedTimeline = btn.getAttribute('data-scope-timeline');
+          document.querySelectorAll('.scope-timeline-btn').forEach(function (b) {
+            var active = b === btn;
+            b.setAttribute('aria-pressed', active ? 'true' : 'false');
+            b.classList.toggle('bg-light-primary', active);
+            b.classList.toggle('text-light-on-primary', active);
+            b.classList.toggle('bg-light-surface-container-lowest', !active);
+            b.classList.toggle('text-light-on-surface-variant', !active);
+            b.classList.toggle('border', !active);
+            b.classList.toggle('border-light-outline-variant', !active);
+          });
+          updateScope();
+        });
+      });
+    })();
+  </script>
+
+
+</body></html>
